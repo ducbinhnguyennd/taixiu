@@ -5,7 +5,7 @@ app.use(express.static('./www'));
 
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
-
+const path = require('path');
 // port
 server.listen(process.env.PORT || 80, function(){
 	console.log('server dang chay....');
