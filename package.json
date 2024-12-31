@@ -4,12 +4,14 @@
   "description": "game tai xiu nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "nhockm4v",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
+    "path": "^0.12.7",
     "socket.io": "^2.2.0"
   }
 }
