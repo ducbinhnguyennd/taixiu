@@ -10,6 +10,7 @@ const path = require('path');
 server.listen(process.env.PORT || 80, function(){
 	console.log('server dang chay....');
 });
+app.use(express.static(path.join(__dirname, 'www')));
 
 // tài xỉu
 app.get('/', (req, res) => {
