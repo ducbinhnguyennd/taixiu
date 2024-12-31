@@ -13,9 +13,8 @@ server.listen(process.env.PORT || 80, function(){
 
 // tài xỉu
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'index.html'));
-});
-
+    res.sendFile(path.join(__dirname, 'www', 'index.html'));
+  });
 var Taixiu = function(){
 
     // cài đặt
